@@ -17,14 +17,14 @@ The core components of the research are organized within the `/notebooks_pipelin
 5. **[5.data_augmentation.ipynb](/notebooks_pipeline/5.data_augmentation.ipynb):**  Explores data augmentation strategies to increase the size and diversity of the training data, using the 'gemini-1.5-flash' model to generate synthetic but representative text samples.
 6. **[6.master_16_augest_bert_training_after_gemini_cleaning.ipynb](/notebooks_pipeline/6.master_16_augest_bert_training_after_gemini_cleaning.ipynb):**  Presents the final BERT model training iteration, leveraging the augmented dataset and likely incorporating further model fine-tuning. 
 
-
 ## Results and Discussion
 
 The research demonstrated the effectiveness of BERT and data augmentation for IMRAD section classification. The final BERT model achieved an F1 score of 0.9172 on the test set, a substantial improvement over the baseline Logistic Regression model. The combination of transfer learning and data augmentation techniques significantly improved model robustness, accuracy, and generalization to unseen data.
 
+**Dataset:**
 
+As part of this thesis, an augmented IMRAD classification dataset consisting of approximately 100,000 sentences was created and is publicly available on Hugging Face: [https://huggingface.co/datasets/stormsidali2001/IMRAD-sections-clf-gemini-augmented](https://huggingface.co/datasets/stormsidali2001/IMRAD-sections-clf-gemini-augmented)
 
 ## Contact
 
-Sid Ali Assoul - [assoulsidali.contact@gmail.com] 
-
+Sid Ali Assoul - assoulsidali.contact@gmail.com
