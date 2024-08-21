@@ -17,24 +17,12 @@ The core components of the research are organized within the `/notebooks_pipelin
 5. **[5.data_augmentation.ipynb](/notebooks_pipeline/5.data_augmentation.ipynb):**  Explores data augmentation strategies to increase the size and diversity of the training data, using the 'gemini-1.5-flash' model to generate synthetic but representative text samples.
 6. **[6.master_16_augest_bert_training_after_gemini_cleaning.ipynb](/notebooks_pipeline/6.master_16_augest_bert_training_after_gemini_cleaning.ipynb):**  Presents the final BERT model training iteration, leveraging the augmented dataset and likely incorporating further model fine-tuning. 
 
-## Instructions
-
-To reproduce the experiments:
-
-1. Clone the repository.
-2. Install the necessary dependencies (refer to `requirements.txt` if provided).
-3. Run the notebooks in numerical order within a Jupyter environment.
 
 ## Results and Discussion
 
 The research demonstrated the effectiveness of BERT and data augmentation for IMRAD section classification. The final BERT model achieved an F1 score of 0.9172 on the test set, a substantial improvement over the baseline Logistic Regression model. The combination of transfer learning and data augmentation techniques significantly improved model robustness, accuracy, and generalization to unseen data.
 
-## Future Work
 
-- Experiment with more advanced data augmentation techniques like back-translation or adversarial training.
-- Explore alternative model architectures or ensemble methods to further enhance performance.
-- Apply the model to a larger and more diverse set of scientific publications to assess its generalizability.
-- Develop a user-friendly interface or integrate the model into research paper analysis tools.
 
 ## Contact
 
